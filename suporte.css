@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'poppins', sans-serif;
+  background: #FCFCFC;
+}
+
+.navbar-text{
+  font-size: 30px;
+  color: #fcfcfc;
+  font-weight: bold;
+}
+
+.offcanvas-body .nav-link{
+  font-size: 18px;
+}
+
+.grid_suporte {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr 0.45fr 0.5fr 1fr 0.45fr 0.25fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.seta { 
+  grid-area: 1 / 1 / 2 / 2;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.supa { 
+  grid-area: 2 / 2 / 3 / 3;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px; 
+  color: #09389C;
+}
+
+.icon1 { 
+  grid-area: 4 / 2 / 5 / 3;
+  text-align: center;
+}
+.div4 { 
+  grid-area: 5 / 2 / 6 / 3; 
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0F0F0F;
+  margin-top: 10px;
+}
+.icon2 { 
+  grid-area: 7 / 2 / 8 / 3;
+  text-align: center;
+}
+.div6 { 
+  grid-area: 8 / 2 / 9 / 3;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0F0F0F;
+}
